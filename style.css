@@ -42,4 +42,22 @@ body {
   height: 100%;
   background: radial-gradient(#000 0%, #191970 50%, #000 100%);
   z-index: -1;
+  .instagram-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.fa-instagram {
+  font-size: 24px;
+  color: #000;
+}
 }
